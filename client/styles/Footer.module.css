@@ -1,0 +1,47 @@
+.container {
+  height: calc(100vh - 100px);
+  display: flex;
+  background-color: #222;
+  color: white;
+}
+
+.imgContainer {
+  position: relative;
+  flex: 2;
+}
+
+.infoWrapper {
+  flex: 4;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text {
+  font-size: 30px;
+}
+
+.item {
+  flex: 1;
+  flex-basis: 250px;
+  padding: 0 20px;
+}
+
+.infoHeader {
+  color: #fd4b27;
+  font-weight: 700;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 15px;
+  color: #e6e6e6;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    height: fit-content;
+  }
+  .imgContainer {
+    display: none;
+  }
+}

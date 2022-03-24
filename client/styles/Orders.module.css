@@ -1,0 +1,73 @@
+.container {
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 2;
+}
+.cartTable {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.tableData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  position: relative;
+}
+
+.tracking {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.deliveryState {
+  display: flex;
+  flex-direction: column;
+}
+.trackingTitle {
+  margin: 5px 0;
+}
+
+.right {
+  flex: 1;
+  background-color: #222;
+  color: white;
+}
+
+.wrapper {
+  padding: 25px 50px;
+}
+
+.wrapper span {
+  font-weight: 500;
+}
+
+.checkout {
+  padding: 5px 35px;
+  color: teal;
+  background-color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 0;
+  }
+  .left {
+    padding: 10px;
+  }
+  .cartTable {
+    font-size: 12px;
+  }
+}
